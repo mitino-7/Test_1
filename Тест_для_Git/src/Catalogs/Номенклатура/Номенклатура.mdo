@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81d7f581-d1ce-4741-8277-11f8c0e717e5">
+  <producedTypes>
+    <objectType typeId="0e9a3525-6745-4179-aada-1af270cc95bd" valueTypeId="06687988-11e5-4bc1-afed-08e5cba55e00">
+    </objectType>
+    <refType typeId="3d115ae8-6349-4573-bd4f-21bfc209a6d3" valueTypeId="46999540-eb73-43ae-87b3-a25d186c8e74">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="dad32053-1a1c-484c-a545-8b4409c7879a" valueTypeId="090adb4a-1752-43af-b0ff-562b7e28d75b">
+    </selectionType>
+    <listType typeId="c91e39c6-4b4a-4694-b143-9e228d6d2471" valueTypeId="55e583d9-7e3d-492d-9520-bda72d346f04">
+    </listType>
+    <managerType typeId="78f4eaaf-303a-487c-9664-6ab59f4d4cd2" valueTypeId="dde8eacf-f324-49e8-9d2a-3b3456c100be">
+    </managerType>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c7c2347c-799f-488c-85d4-938b72f15634">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
