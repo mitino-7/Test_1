@@ -68,4 +68,18 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="f16aafea-bcde-4c3d-adfc-2358dd86b0af">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
 </mdclass:Catalog>
